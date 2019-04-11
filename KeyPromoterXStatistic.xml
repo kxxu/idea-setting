@@ -38,7 +38,7 @@
           <IdeaActionID>tasks.close</IdeaActionID>
           <ShortCut>'Alt+Shift+W'</ShortCut>
           <Description>Close Active Task...</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Close Others">
