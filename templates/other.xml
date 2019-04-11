@@ -1,0 +1,21 @@
+<templateSet group="other">
+  <template name="ife" value="if ($VAR$.equals($VAR2$)) {&#10;    $END$&#10;}" description="insert &quot;if equals&quot; statemnet" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="suggestFirstVariableName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="suggestFirstVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ccmt" value="/**&#10;* 方法实现说明&#10;* @author      kxxu&#10;* @param       $param$&#10;* @return      $return$&#10;* @exception   $exception$&#10;* @date        $date$ $time$&#10;*/" description="class method annotation template" toReformat="false" toShortenFQNames="true">
+    <variable name="param" expression="methodParameters()" defaultValue="" alwaysStopAt="true" />
+    <variable name="return" expression="methodReturnType()" defaultValue="string" alwaysStopAt="true" />
+    <variable name="exception" expression="expressionType(Expression)" defaultValue="" alwaysStopAt="true" />
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="time" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY" value="true" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

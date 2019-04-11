@@ -1,0 +1,9 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://mybatis.org/dtd/mybatis-3-config.dtd" location="$USER_HOME$/.IntelliJIdea2016.1/system/extResources/69c70a2f_mybatis-3-config.dtd" />
+    <resource url="http://mybatis.org/dtd/mybatis-3-mapper.dtd" location="$USER_HOME$/.IntelliJIdea2016.1/system/extResources/b36fadae_mybatis-3-mapper.dtd" />
+    <ignored-resource url="http://java.sun.com/xml/ns/javaee" />
+    <ignored-resource url="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" />
+    <ignored-resource url="http://jboss.org/kie/6.0.0/kmodule" />
+  </component>
+</application>
