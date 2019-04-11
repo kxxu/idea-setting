@@ -6,7 +6,7 @@
           <IdeaActionID>Back</IdeaActionID>
           <ShortCut>'Ctrl+Alt+向左箭头'</ShortCut>
           <Description>Back</Description>
-          <Count>23</Count>
+          <Count>24</Count>
         </Item>
       </Statistic>
       <Statistic Action="Build Project">
@@ -54,7 +54,7 @@
           <IdeaActionID>CheckinProject</IdeaActionID>
           <ShortCut>'Ctrl+K'</ShortCut>
           <Description>Commit...</Description>
-          <Count>1</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Compare With...">
@@ -233,12 +233,20 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Open 'ADX-1704: 对接网易云音乐媒体协议' In Browser">
+        <Item>
+          <IdeaActionID>tasks.open.in.browser</IdeaActionID>
+          <ShortCut>'Alt+Shift+B'</ShortCut>
+          <Description>Open 'ADX-1704: 对接网易云音乐媒体协议' In Browser</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Open Task...">
         <Item>
           <IdeaActionID>tasks.goto</IdeaActionID>
           <ShortCut>'Alt+Shift+N'</ShortCut>
           <Description>Open Task...</Description>
-          <Count>1</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Project">
@@ -449,12 +457,20 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Save Context...">
+        <Item>
+          <IdeaActionID>context.save</IdeaActionID>
+          <ShortCut>'Alt+Shift+S'</ShortCut>
+          <Description>Save Context...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Settings...">
         <Item>
           <IdeaActionID>ShowSettings</IdeaActionID>
           <ShortCut>'Ctrl+Alt+S'</ShortCut>
           <Description>Settings...</Description>
-          <Count>39</Count>
+          <Count>43</Count>
         </Item>
       </Statistic>
       <Statistic Action="Show Reformat File Dialog">
@@ -511,6 +527,14 @@
           <ShortCut>'Ctrl+Enter'</ShortCut>
           <Description>Submit</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Switch Task...">
+        <Item>
+          <IdeaActionID>tasks.switch</IdeaActionID>
+          <ShortCut>'Alt+Shift+T'</ShortCut>
+          <Description>Switch Task...</Description>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Symbol...">
