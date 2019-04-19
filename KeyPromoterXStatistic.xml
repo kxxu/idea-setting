@@ -6,7 +6,7 @@
           <IdeaActionID>Back</IdeaActionID>
           <ShortCut>'Ctrl+Alt+向左箭头'</ShortCut>
           <Description>Back</Description>
-          <Count>62</Count>
+          <Count>68</Count>
         </Item>
       </Statistic>
       <Statistic Action="Build Project">
@@ -126,7 +126,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>113</Count>
+          <Count>115</Count>
         </Item>
       </Statistic>
       <Statistic Action="Evaluate Expression...">
