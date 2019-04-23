@@ -6,7 +6,7 @@
           <IdeaActionID>Back</IdeaActionID>
           <ShortCut>'Ctrl+Alt+向左箭头'</ShortCut>
           <Description>Back</Description>
-          <Count>73</Count>
+          <Count>77</Count>
         </Item>
       </Statistic>
       <Statistic Action="Build Project">
