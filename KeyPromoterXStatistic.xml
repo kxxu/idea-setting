@@ -225,6 +225,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Maven">
+        <Item>
+          <IdeaActionID>ActivateMavenToolWindow</IdeaActionID>
+          <ShortCut>'Alt+M'</ShortCut>
+          <Description>Maven</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Maximize Tool Window">
         <Item>
           <IdeaActionID>MaximizeToolWindow</IdeaActionID>
