@@ -26,7 +26,7 @@
     </context>
   </template>
   <template name="ifs" value="if(!Strings.isNullOrEmpty($VAR$)){&#10;  $END$&#10;}" description="if string" toReformat="false" toShortenFQNames="true">
-    <variable name="VAR" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="suggestFirstVariableName()" defaultValue="var" alwaysStopAt="true" />
     <context>
       <option name="GROOVY" value="true" />
       <option name="JAVA_CODE" value="true" />
