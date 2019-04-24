@@ -1,11 +1,31 @@
 <application>
   <component name="GetterTemplates">
-    <option name="defaultTempalteName" value="adItem" />
+    <option name="defaultTempalteName" value="grpc-builder-object" />
     <option name="templates">
       <list>
         <TemplateResource>
           <option name="fileName" value="adItem" />
-          <option name="template" value="#if($field.modifierStatic)&#10;static ##&#10;#end&#10;$field.type ##&#10;#set($name = $StringUtil.capitalizeWithJavaBeanConvention($StringUtil.sanitizeJavaIdentifier($helper.getPropertyName($field, $project))))&#10;#set($newName=$StringUtil.join($StringUtil.split($name, &quot;_&quot;), $StringUtil.firstLetterToUpperCase, &quot;&quot;))&#10;#if ($field.boolean &amp;&amp; $field.primitive)&#10;is##&#10;#else&#10;get##&#10;#end&#10;${name}() {&#10;return adItem.get${newName};&#10;}" />
+          <option name="template" value="#if($field.modifierStatic)&#10;static ##&#10;#end&#10;$field.type ##&#10;#set($name = $StringUtil.capitalizeWithJavaBeanConvention($StringUtil.sanitizeJavaIdentifier($helper.getPropertyName($field, $project))))&#10;#if ($field.boolean &amp;&amp; $field.primitive)&#10;    #if ($StringUtil.startsWithIgnoreCase($name, 'is'))&#10;        #set($name = $StringUtil.decapitalize($name))&#10;    #else&#10;    is##&#10;    #end&#10;#else&#10;get##&#10;#end&#10;#set($words = $StringUtil.split($name, &quot;_&quot;))&#10;#set($name = &quot;&quot;)&#10;#foreach($word in $words)&#10;    #set($name = $name + $StringUtil.capitalize($word))&#10;#end&#10;${name}() {&#10;return adItem.get$name();&#10;}" />
+        </TemplateResource>
+        <TemplateResource>
+          <option name="fileName" value="camelized" />
+          <option name="template" value="#if($field.modifierStatic)&#10;static ##&#10;#end&#10;$field.type ##&#10;#set($name = $StringUtil.capitalizeWithJavaBeanConvention($StringUtil.sanitizeJavaIdentifier($helper.getPropertyName($field, $project))))&#10;#if ($field.boolean &amp;&amp; $field.primitive)&#10;    #if ($StringUtil.startsWithIgnoreCase($name, 'is'))&#10;        #set($name = $StringUtil.decapitalize($name))&#10;    #else&#10;    is##&#10;    #end&#10;#else&#10;get##&#10;#end&#10;#set($words = $StringUtil.split($name, &quot;_&quot;))&#10;#set($name = &quot;&quot;)&#10;#foreach($word in $words)&#10;    #set($name = $name + $StringUtil.capitalize($word))&#10;#end&#10;${name}() {&#10;return $field.name;&#10;}" />
+        </TemplateResource>
+        <TemplateResource>
+          <option name="fileName" value="grpc-builder" />
+          <option name="template" value="#if($field.modifierStatic)&#10;static ##&#10;#end&#10;$field.type ##&#10;#set($name = $StringUtil.capitalizeWithJavaBeanConvention($StringUtil.sanitizeJavaIdentifier($helper.getPropertyName($field, $project))))&#10;  get${name}() {&#10;    return builder.get$name();&#10;}" />
+        </TemplateResource>
+        <TemplateResource>
+          <option name="fileName" value="grpc-builder-list" />
+          <option name="template" value="#if($field.modifierStatic)&#10;static ##&#10;#end&#10;$field.type ##&#10;#set($name = $StringUtil.capitalizeWithJavaBeanConvention($StringUtil.sanitizeJavaIdentifier($helper.getPropertyName($field, $project))))&#10;#if ($field.boolean &amp;&amp; $field.primitive)&#10;is##&#10;#else&#10;get##&#10;#end&#10;${name}() {&#10;return builder.get${name}List();&#10;}" />
+        </TemplateResource>
+        <TemplateResource>
+          <option name="fileName" value="grpc-builder-camelized" />
+          <option name="template" value="#if($field.modifierStatic)&#10;static ##&#10;#end&#10;$field.type ##&#10;#set($name = $StringUtil.capitalizeWithJavaBeanConvention($StringUtil.sanitizeJavaIdentifier($helper.getPropertyName($field, $project))))&#10;#if ($field.boolean &amp;&amp; $field.primitive)&#10;    #if ($StringUtil.startsWithIgnoreCase($name, 'is'))&#10;        #set($name = $StringUtil.decapitalize($name))&#10;    #else&#10;    is##&#10;    #end&#10;#else&#10;get##&#10;#end&#10;#set($words = $StringUtil.split($name, &quot;_&quot;))&#10;#set($name = &quot;&quot;)&#10;#foreach($word in $words)&#10;    #set($name = $name + $StringUtil.capitalize($word))&#10;#end&#10;${name}() {&#10;return builder.get${name}();&#10;}" />
+        </TemplateResource>
+        <TemplateResource>
+          <option name="fileName" value="grpc-builder-object" />
+          <option name="template" value="#if($field.modifierStatic)&#10;static ##&#10;#end&#10;$field.type ##&#10;#set($name = $StringUtil.capitalizeWithJavaBeanConvention($StringUtil.sanitizeJavaIdentifier($helper.getPropertyName($field, $project))))&#10;  get${name}() {&#10;    return new ${field.type}(builder.get$name());&#10;}" />
         </TemplateResource>
       </list>
     </option>
