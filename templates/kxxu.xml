@@ -1,5 +1,5 @@
 <templateSet group="kxxu">
-  <template name="sl4j" value="static final Logger log = LoggerFactory.getLogger($classname$.class);" description="sl4j log" toReformat="false" toShortenFQNames="true">
+  <template name="sl4j" value="private static final Logger log = LoggerFactory.getLogger($classname$.class);" description="sl4j log" toReformat="false" toShortenFQNames="true">
     <variable name="classname" expression="className()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
@@ -25,7 +25,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="ifs" value="if(!Strings.isNullOrEmpty($VAR$)){&#10;  $END$&#10;}" description="if string" toReformat="false" toShortenFQNames="true">
+  <template name="ins" value="if(!Strings.isNullOrEmpty($VAR$)){&#10;  $END$&#10;}" description="if string" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="suggestFirstVariableName()" defaultValue="var" alwaysStopAt="true" />
     <context>
       <option name="GROOVY" value="true" />
