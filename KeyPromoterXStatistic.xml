@@ -142,7 +142,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>133</Count>
+          <Count>134</Count>
         </Item>
       </Statistic>
       <Statistic Action="Evaluate Expression...">
@@ -559,6 +559,14 @@
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'ProtobufSamplerTest.testResult'</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'ProtocolBufUtil'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Run 'ProtocolBufUtil'</Description>
+          <Count>15</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'check.sh'">
