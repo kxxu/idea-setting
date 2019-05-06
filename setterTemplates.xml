@@ -1,6 +1,6 @@
 <application>
   <component name="SetterTemplates">
-    <option name="defaultTempalteName" value="grpc-builder-list" />
+    <option name="defaultTempalteName" value="grpc-builder" />
     <option name="templates">
       <list>
         <TemplateResource>
@@ -14,6 +14,14 @@
         <TemplateResource>
           <option name="fileName" value="grpc-builder-list" />
           <option name="template" value="#set($paramName = $helper.getParamName($field, $project))&#10;#if($field.modifierStatic)&#10;static ##&#10;#end&#10;#set($name = $StringUtil.capitalizeWithJavaBeanConvention($StringUtil.sanitizeJavaIdentifier($helper.getPropertyName($field, $project))))&#10;#set($words = $StringUtil.split($name, &quot;_&quot;))&#10;#set($name = &quot;&quot;)&#10;#foreach($word in $words)&#10;    #set($name = $name + $StringUtil.capitalize($word))&#10;#end&#10;void set$name($field.type $StringUtil.decapitalize($name)) {&#10;#if ($field.name == $paramName)&#10;    #if (!$field.modifierStatic)&#10;    builder.##&#10;    #else&#10;        $classname.##&#10;    #end&#10;#end&#10;addAll$name($paramName);&#10;}" />
+        </TemplateResource>
+        <TemplateResource>
+          <option name="fileName" value="grpc-builder-camelized" />
+          <option name="template" value="#set($paramName = $helper.getParamName($field, $project))&#10;#if($field.modifierStatic)&#10;static ##&#10;#end&#10;#set($name = $StringUtil.capitalizeWithJavaBeanConvention($StringUtil.sanitizeJavaIdentifier($helper.getPropertyName($field, $project))))&#10;#set($words = $StringUtil.split($name, &quot;_&quot;))&#10;#set($allName = $name)&#10;#set($name = &quot;&quot;)&#10;#foreach($word in $words)&#10;    #set($name = $name + $StringUtil.capitalize($word))&#10;#end&#10;void set${name}($field.type $StringUtil.decapitalize($allName)) {&#10;  builder.set${name}($paramName);&#10;}" />
+        </TemplateResource>
+        <TemplateResource>
+          <option name="fileName" value="grpc-object-builder" />
+          <option name="template" value="#set($paramName = $helper.getParamName($field, $project))&#10;#if($field.modifierStatic)&#10;static ##&#10;#end&#10;void set$StringUtil.capitalizeWithJavaBeanConvention($StringUtil.sanitizeJavaIdentifier($helper.getPropertyName($field, $project)))($field.type $paramName) {&#10;  if($paramName != null){&#10;    builder.set$StringUtil.capitalizeWithJavaBeanConvention($StringUtil.sanitizeJavaIdentifier($helper.getPropertyName($field, $project)))(${paramName}.builder);&#10;  }&#10;  #if ($field.name == $paramName)&#10;    #if (!$field.modifierStatic)&#10;      this.##&#10;    #else&#10;      $classname.##&#10;    #end&#10;  #end&#10;  $field.name = $paramName;&#10;}" />
         </TemplateResource>
       </list>
     </option>
