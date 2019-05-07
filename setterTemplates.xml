@@ -1,6 +1,6 @@
 <application>
   <component name="SetterTemplates">
-    <option name="defaultTempalteName" value="camelized-builder" />
+    <option name="defaultTempalteName" value="Builder" />
     <option name="templates">
       <list>
         <TemplateResource>
