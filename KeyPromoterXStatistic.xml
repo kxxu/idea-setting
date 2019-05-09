@@ -150,7 +150,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>347</Count>
+          <Count>355</Count>
         </Item>
       </Statistic>
       <Statistic Action="Evaluate Expression...">
@@ -270,7 +270,7 @@
           <IdeaActionID>ExtractMethod</IdeaActionID>
           <ShortCut>'Ctrl+Alt+M'</ShortCut>
           <Description>Method...</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Open 'ADX-1704: 【媒体资源对接】网易云音乐-开发对方文档' In Browser">
@@ -385,12 +385,28 @@
           <Count>5</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Recompile 'NewDspResponse.java'">
+        <Item>
+          <IdeaActionID>Compile</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F9'</ShortCut>
+          <Description>Recompile 'NewDspResponse.java'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Recompile 'TransformRequest.java'">
         <Item>
           <IdeaActionID>Compile</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F9'</ShortCut>
           <Description>Recompile 'TransformRequest.java'</Description>
           <Count>4</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Recompile 'UpPlatNewIflyDsp.java'">
+        <Item>
+          <IdeaActionID>Compile</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F9'</ShortCut>
+          <Description>Recompile 'UpPlatNewIflyDsp.java'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Reformat Code">
@@ -774,7 +790,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>148</Count>
+          <Count>156</Count>
         </Item>
       </Statistic>
       <Statistic Action="Tool Buttons">
