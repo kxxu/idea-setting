@@ -62,4 +62,7 @@
   <action id="ViewToolButtons">
     <keyboard-shortcut first-keystroke="alt b" />
   </action>
+  <action id="com.jetbrains.plugins.remotesdk.console.RunSshConsoleAction">
+    <keyboard-shortcut first-keystroke="alt x" />
+  </action>
 </keymap>
