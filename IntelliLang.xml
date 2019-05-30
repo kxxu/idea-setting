@@ -1,6 +1,10 @@
 <application>
   <component name="LanguageInjectionConfiguration">
     <injection language="JSON" injector-id="java">
+      <display-name>MediaMaterialServiceImp.updateMaterialStatus (com.iflytek.check.service)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(3, psiMethod().withName("updateMaterialStatus").withParameters("java.lang.String", "int", "java.lang.String", "java.lang.String").definedInClass("com.iflytek.check.service.MediaMaterialServiceImp"))]]></place>
+    </injection>
+    <injection language="JSON" injector-id="java">
       <display-name>SampleResult.setSamplerData (org.apache.jmeter.samplers)</display-name>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("setSamplerData").withParameters("java.lang.String").definedInClass("org.apache.jmeter.samplers.SampleResult"))]]></place>
     </injection>
