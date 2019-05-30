@@ -1,0 +1,30 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f9b092b9-4feb-4859-9973-91c5103fff97" name="65.90" url="http://192.168.65.90">
+        <fileTransfer host="192.168.65.90" port="22" rootFolder="/root/kxxu/gnome" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions controlEncoding="UTF-8" dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="05daec90-db4d-484f-8b2b-b3d10bd945ad" name="65.91" url="http://192.168.65.91">
+        <fileTransfer host="192.168.65.91" port="22" rootFolder="/root/kxxu/gnome" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions controlEncoding="UTF-8" dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="07a365f8-4341-4e23-8370-675903c60950" name="65.92" url="http://192.168.65.92">
+        <fileTransfer host="192.168.65.92" port="22" rootFolder="/root/kxxu/gnome" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions controlEncoding="UTF-8" dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
