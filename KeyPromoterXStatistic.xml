@@ -94,7 +94,7 @@
           <IdeaActionID>Git.CompareWithBranch</IdeaActionID>
           <ShortCut>'Alt+逗号'</ShortCut>
           <Description>Compare with Branch...</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Compare with the Same Repository Version">
