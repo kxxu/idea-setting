@@ -102,7 +102,7 @@
           <IdeaActionID>Compare.SameVersion</IdeaActionID>
           <ShortCut>'Alt+C'</ShortCut>
           <Description>Compare with the Same Repository Version</Description>
-          <Count>12</Count>
+          <Count>13</Count>
         </Item>
       </Statistic>
       <Statistic Action="Custom Folding...">
@@ -182,7 +182,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>404</Count>
+          <Count>407</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -750,7 +750,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'AdxSystem'</Description>
-          <Count>60</Count>
+          <Count>61</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'GrpcClientTest.testRequest'">
