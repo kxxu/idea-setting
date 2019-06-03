@@ -78,7 +78,7 @@
           <IdeaActionID>CheckinProject</IdeaActionID>
           <ShortCut>'Ctrl+K'</ShortCut>
           <Description>Commit...</Description>
-          <Count>26</Count>
+          <Count>27</Count>
         </Item>
       </Statistic>
       <Statistic Action="Compare With...">
@@ -102,7 +102,7 @@
           <IdeaActionID>Compare.SameVersion</IdeaActionID>
           <ShortCut>'Alt+C'</ShortCut>
           <Description>Compare with the Same Repository Version</Description>
-          <Count>13</Count>
+          <Count>14</Count>
         </Item>
       </Statistic>
       <Statistic Action="Custom Folding...">
