@@ -102,7 +102,7 @@
           <IdeaActionID>Compare.SameVersion</IdeaActionID>
           <ShortCut>'Alt+C'</ShortCut>
           <Description>Compare with the Same Repository Version</Description>
-          <Count>16</Count>
+          <Count>17</Count>
         </Item>
       </Statistic>
       <Statistic Action="Custom Folding...">
@@ -182,7 +182,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>540</Count>
+          <Count>554</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -190,6 +190,14 @@
           <IdeaActionID>Console.TableResult.DeleteRows</IdeaActionID>
           <ShortCut>'Ctrl+Y'</ShortCut>
           <Description>Delete Row</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Delete...">
+        <Item>
+          <IdeaActionID>$Delete</IdeaActionID>
+          <ShortCut>'Delete'</ShortCut>
+          <Description>Delete...</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
