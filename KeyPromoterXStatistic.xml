@@ -118,7 +118,7 @@
           <IdeaActionID>DatabaseView.PropertiesAction</IdeaActionID>
           <ShortCut>'Shift+Enter'</ShortCut>
           <Description>Data Source Properties</Description>
-          <Count>4</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Database">
@@ -126,7 +126,7 @@
           <IdeaActionID>ActivateDatabaseToolWindow</IdeaActionID>
           <ShortCut>'Ctrl+Shift+O'</ShortCut>
           <Description>Database</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'AdxSystem'">
@@ -182,7 +182,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>522</Count>
+          <Count>525</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -286,7 +286,7 @@
           <IdeaActionID>Jdbc.OpenConsole.Any</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F10'</ShortCut>
           <Description>Jump to Console...</Description>
-          <Count>11</Count>
+          <Count>12</Count>
         </Item>
       </Statistic>
       <Statistic Action="Jump to Navigation Bar">
@@ -431,6 +431,14 @@
           <ShortCut>'Ctrl+Shift+F9'</ShortCut>
           <Description>Recompile 'GrpcRespCallback.java'</Description>
           <Count>5</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Recompile 'MediaCollector.java'">
+        <Item>
+          <IdeaActionID>Compile</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+F9'</ShortCut>
+          <Description>Recompile 'MediaCollector.java'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Recompile 'NewDspResponse.java'">
@@ -870,7 +878,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>164</Count>
+          <Count>165</Count>
         </Item>
       </Statistic>
       <Statistic Action="Tool Buttons">
