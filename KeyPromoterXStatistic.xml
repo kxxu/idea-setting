@@ -617,6 +617,14 @@
           <Count>17</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'HelloWorldApplication'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Run 'HelloWorldApplication'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'HelloWorldClient.main()'">
         <Item>
           <IdeaActionID>RunClass</IdeaActionID>
@@ -766,6 +774,14 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'GrpcClientTest.testRequest'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'HelloWorldApplication'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'HelloWorldApplication'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
