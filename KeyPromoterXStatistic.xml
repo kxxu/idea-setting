@@ -785,6 +785,14 @@
           <Count>9</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Start SSH session...">
+        <Item>
+          <IdeaActionID>com.jetbrains.plugins.remotesdk.console.RunSshConsoleAction</IdeaActionID>
+          <ShortCut>'Alt+X'</ShortCut>
+          <Description>Start SSH session...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Step Into">
         <Item>
           <IdeaActionID>StepInto</IdeaActionID>
