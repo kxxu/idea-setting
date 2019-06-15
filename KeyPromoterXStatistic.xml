@@ -145,6 +145,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Debug 'GatewayNacosConfigTest.testIsToAdx'">
+        <Item>
+          <IdeaActionID>Debug</IdeaActionID>
+          <ShortCut>'Shift+F9'</ShortCut>
+          <Description>Debug 'GatewayNacosConfigTest.testIsToAdx'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Debug 'ProtobufHttpJavaImplTest.testSendPostData'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
@@ -182,7 +190,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>747</Count>
+          <Count>756</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -657,6 +665,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'GatewayNacosConfigTest.testIsToAdx'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Run 'GatewayNacosConfigTest.testIsToAdx'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'GrpcClientTest.testInit'">
         <Item>
           <IdeaActionID>Run</IdeaActionID>
@@ -857,6 +873,22 @@
           <Count>72</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'GatewayNacosConfigTest.testIsToAdx'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'GatewayNacosConfigTest.testIsToAdx'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'GatewayNacosConfigTest.testIsToDsp'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'GatewayNacosConfigTest.testIsToDsp'</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'GrpcClientTest.testRequest'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -974,7 +1006,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>174</Count>
+          <Count>179</Count>
         </Item>
       </Statistic>
       <Statistic Action="Tool Buttons">
