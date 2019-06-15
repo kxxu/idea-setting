@@ -809,6 +809,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Scan keys">
+        <Item>
+          <IdeaActionID>ScanKeysAction</IdeaActionID>
+          <ShortCut>'Ctrl+Enter'</ShortCut>
+          <Description>Scan keys</Description>
+          <Count>4</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Settings...">
         <Item>
           <IdeaActionID>ShowSettings</IdeaActionID>
