@@ -1,6 +1,10 @@
 <application>
   <component name="LanguageInjectionConfiguration">
     <injection language="JSON" injector-id="java">
+      <display-name>GatewayCollector.test (com.iflytek.check.collector)</display-name>
+      <place><![CDATA[psiMethod().withName("test").withParameters().definedInClass("com.iflytek.check.collector.GatewayCollector")]]></place>
+    </injection>
+    <injection language="JSON" injector-id="java">
       <display-name>SampleResult.setSamplerData (org.apache.jmeter.samplers)</display-name>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("setSamplerData").withParameters("java.lang.String").definedInClass("org.apache.jmeter.samplers.SampleResult"))]]></place>
     </injection>
