@@ -577,6 +577,14 @@
           <Count>7</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'DealnoticeApplication'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Rerun 'DealnoticeApplication'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'DownPlat_NeteaseMusicTest.远程-首页-图文'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
@@ -927,6 +935,14 @@
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'AdxSystem'</Description>
           <Count>103</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'DealnoticeApplication'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'DealnoticeApplication'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'GatewayNacosConfigTest.testIsToAdx'">

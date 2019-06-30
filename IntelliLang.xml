@@ -13,6 +13,10 @@
       <place><![CDATA[psiMethod().withName("sayHello").withParameters().definedInClass("com.iflytek.tracing.collector.HelloCollector")]]></place>
     </injection>
     <injection language="JSON" injector-id="java">
+      <display-name>InformationTransformCollector.getAll (com.gnome.dealnotice.controller)</display-name>
+      <place><![CDATA[psiMethod().withName("getAll").withParameters().definedInClass("com.gnome.dealnotice.controller.InformationTransformCollector")]]></place>
+    </injection>
+    <injection language="JSON" injector-id="java">
       <display-name>SampleResult.setSamplerData (org.apache.jmeter.samplers)</display-name>
       <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("setSamplerData").withParameters("java.lang.String").definedInClass("org.apache.jmeter.samplers.SampleResult"))]]></place>
     </injection>
