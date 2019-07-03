@@ -1094,7 +1094,7 @@
           <IdeaActionID>Console.TableResult.Submit</IdeaActionID>
           <ShortCut>'Ctrl+Enter'</ShortCut>
           <Description>Submit</Description>
-          <Count>49</Count>
+          <Count>54</Count>
         </Item>
       </Statistic>
       <Statistic Action="Switch Task...">
