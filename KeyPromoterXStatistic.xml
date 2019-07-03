@@ -22,7 +22,7 @@
           <IdeaActionID>Back</IdeaActionID>
           <ShortCut>'Ctrl+Alt+向左箭头'</ShortCut>
           <Description>Back</Description>
-          <Count>118</Count>
+          <Count>120</Count>
         </Item>
       </Statistic>
       <Statistic Action="Build Project">
@@ -150,7 +150,7 @@
           <IdeaActionID>ActivateDebugToolWindow</IdeaActionID>
           <ShortCut>'Alt+5'</ShortCut>
           <Description>Debug</Description>
-          <Count>14</Count>
+          <Count>16</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'AdxSystem'">
@@ -214,7 +214,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>1181</Count>
+          <Count>1190</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -222,7 +222,7 @@
           <IdeaActionID>Console.TableResult.DeleteRows</IdeaActionID>
           <ShortCut>'Ctrl+Y'</ShortCut>
           <Description>Delete Row</Description>
-          <Count>3</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -310,6 +310,14 @@
           <IdeaActionID>ForceStepInto</IdeaActionID>
           <ShortCut>'Alt+Shift+F7'</ShortCut>
           <Description>Force Step Into</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Forward">
+        <Item>
+          <IdeaActionID>Forward</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+向右箭头'</ShortCut>
+          <Description>Forward</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
@@ -974,7 +982,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'DealnoticeApplication'</Description>
-          <Count>6</Count>
+          <Count>9</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'GatewayNacosConfigTest.testIsToAdx'">
@@ -1086,7 +1094,7 @@
           <IdeaActionID>Console.TableResult.Submit</IdeaActionID>
           <ShortCut>'Ctrl+Enter'</ShortCut>
           <Description>Submit</Description>
-          <Count>48</Count>
+          <Count>49</Count>
         </Item>
       </Statistic>
       <Statistic Action="Switch Task...">
@@ -1126,7 +1134,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>233</Count>
+          <Count>236</Count>
         </Item>
       </Statistic>
       <Statistic Action="Tool Buttons">
