@@ -214,7 +214,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>1249</Count>
+          <Count>1251</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -710,6 +710,14 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'ClassLoaderUtil'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'ClassLoaderUtilTest.testGetClassLoader'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Run 'ClassLoaderUtilTest.testGetClassLoader'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
