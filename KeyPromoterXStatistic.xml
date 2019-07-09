@@ -278,7 +278,7 @@
           <IdeaActionID>NewFile</IdeaActionID>
           <ShortCut>'Ctrl+Shift+\'</ShortCut>
           <Description>File</Description>
-          <Count>5</Count>
+          <Count>6</Count>
         </Item>
       </Statistic>
       <Statistic Action="File Path">
