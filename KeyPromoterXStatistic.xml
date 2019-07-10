@@ -22,7 +22,7 @@
           <IdeaActionID>Back</IdeaActionID>
           <ShortCut>'Ctrl+Alt+向左箭头'</ShortCut>
           <Description>Back</Description>
-          <Count>132</Count>
+          <Count>133</Count>
         </Item>
       </Statistic>
       <Statistic Action="Build Project">
@@ -169,6 +169,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Debug 'ClassLoaderUtilTest.testGetClassLoader'">
+        <Item>
+          <IdeaActionID>Debug</IdeaActionID>
+          <ShortCut>'Shift+F9'</ShortCut>
+          <Description>Debug 'ClassLoaderUtilTest.testGetClassLoader'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Debug 'GatewayNacosConfigTest.testIsToAdx'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
@@ -214,7 +222,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>1267</Count>
+          <Count>1272</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -718,7 +726,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'ClassLoaderUtilTest.testGetClassLoader'</Description>
-          <Count>1</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'DealnoticeApplication'">
@@ -1150,7 +1158,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>237</Count>
+          <Count>238</Count>
         </Item>
       </Statistic>
       <Statistic Action="Tool Buttons">
