@@ -1249,6 +1249,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Upload to ngnix-lua-90">
+        <Item>
+          <IdeaActionID>PublishGroup.Upload</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+X'</ShortCut>
+          <Description>Upload to ngnix-lua-90</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Variable...">
         <Item>
           <IdeaActionID>IntroduceVariable</IdeaActionID>
