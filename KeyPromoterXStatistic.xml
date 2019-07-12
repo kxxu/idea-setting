@@ -22,7 +22,7 @@
           <IdeaActionID>Back</IdeaActionID>
           <ShortCut>'Ctrl+Alt+向左箭头'</ShortCut>
           <Description>Back</Description>
-          <Count>133</Count>
+          <Count>136</Count>
         </Item>
       </Statistic>
       <Statistic Action="Build Project">
@@ -222,7 +222,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>1296</Count>
+          <Count>1309</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
