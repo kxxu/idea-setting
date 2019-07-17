@@ -1305,6 +1305,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Upload to...">
+        <Item>
+          <IdeaActionID>PublishGroup.UploadTo</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Shift+X'</ShortCut>
+          <Description>Upload to...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Variable...">
         <Item>
           <IdeaActionID>IntroduceVariable</IdeaActionID>
