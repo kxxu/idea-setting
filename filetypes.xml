@@ -11,6 +11,8 @@
       <mapping ext="pkg" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="vw" type="DBN-SQL" />
+      <mapping pattern="nodeip" type="PLAIN_TEXT" />
+      <mapping pattern="node-ip" type="PLAIN_TEXT" />
       <mapping pattern="agent.config" type="Properties" />
     </extensionMap>
   </component>
