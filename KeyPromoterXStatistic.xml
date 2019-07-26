@@ -222,7 +222,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>1434</Count>
+          <Count>1446</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -286,7 +286,7 @@
           <IdeaActionID>NewFile</IdeaActionID>
           <ShortCut>'Ctrl+Shift+\'</ShortCut>
           <Description>File</Description>
-          <Count>11</Count>
+          <Count>13</Count>
         </Item>
       </Statistic>
       <Statistic Action="File Path">
@@ -878,7 +878,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'OptimizerServerTest.testMain'</Description>
-          <Count>4</Count>
+          <Count>8</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'PluginUtilTest.testGetResString'">
@@ -1238,7 +1238,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'OptimizerServerTest.testMain'</Description>
-          <Count>3</Count>
+          <Count>10</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'ProtobufHttpJavaImplTest.testSendPostData'">
