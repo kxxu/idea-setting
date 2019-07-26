@@ -2,6 +2,7 @@
   <template name="sl4j" value="private static final Logger log = LoggerFactory.getLogger($classname$.class);" description="sl4j log" toReformat="false" toShortenFQNames="true">
     <variable name="classname" expression="className()" defaultValue="" alwaysStopAt="true" />
     <context>
+      <option name="GROOVY_DECLARATION" value="true" />
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
