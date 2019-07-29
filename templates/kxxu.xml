@@ -6,7 +6,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="sfs" value="static final String " description="static final string" toReformat="false" toShortenFQNames="true">
+  <template name="sfs" value="private static final String " description="static final string" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="JAVA_COMMENT" value="false" />
