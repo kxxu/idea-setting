@@ -22,7 +22,7 @@
           <IdeaActionID>Back</IdeaActionID>
           <ShortCut>'Ctrl+Alt+向左箭头'</ShortCut>
           <Description>Back</Description>
-          <Count>156</Count>
+          <Count>157</Count>
         </Item>
       </Statistic>
       <Statistic Action="Build Project">
@@ -230,7 +230,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>1483</Count>
+          <Count>1495</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -294,7 +294,7 @@
           <IdeaActionID>NewFile</IdeaActionID>
           <ShortCut>'Ctrl+Shift+\'</ShortCut>
           <Description>File</Description>
-          <Count>13</Count>
+          <Count>14</Count>
         </Item>
       </Statistic>
       <Statistic Action="File Path">
