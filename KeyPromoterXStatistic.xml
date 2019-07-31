@@ -193,6 +193,14 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Debug 'OptimizerServerTest.testMain'">
+        <Item>
+          <IdeaActionID>Debug</IdeaActionID>
+          <ShortCut>'Shift+F9'</ShortCut>
+          <Description>Debug 'OptimizerServerTest.testMain'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Debug 'ProtobufHttpJavaImplTest.testSendPostData'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
@@ -230,7 +238,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>1510</Count>
+          <Count>1513</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -262,7 +270,7 @@
           <IdeaActionID>EvaluateExpression</IdeaActionID>
           <ShortCut>'Alt+F8'</ShortCut>
           <Description>Evaluate Expression...</Description>
-          <Count>59</Count>
+          <Count>60</Count>
         </Item>
       </Statistic>
       <Statistic Action="Execute">
@@ -894,7 +902,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'OptimizerServerTest.testMain'</Description>
-          <Count>15</Count>
+          <Count>24</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'PluginUtilTest.testGetResString'">
@@ -1262,7 +1270,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'OptimizerServerTest.testMain'</Description>
-          <Count>16</Count>
+          <Count>17</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'ProtobufHttpJavaImplTest.testSendPostData'">
@@ -1374,7 +1382,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'Ctrl+F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>260</Count>
+          <Count>261</Count>
         </Item>
       </Statistic>
       <Statistic Action="Tool Buttons">
