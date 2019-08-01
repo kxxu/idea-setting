@@ -198,7 +198,7 @@
           <IdeaActionID>Debug</IdeaActionID>
           <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'OptimizerServerTest.testMain'</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'ProtobufHttpJavaImplTest.testSendPostData'">
@@ -238,7 +238,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>1548</Count>
+          <Count>1549</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -406,7 +406,7 @@
           <IdeaActionID>ActivateMavenToolWindow</IdeaActionID>
           <ShortCut>'Alt+M'</ShortCut>
           <Description>Maven</Description>
-          <Count>8</Count>
+          <Count>9</Count>
         </Item>
       </Statistic>
       <Statistic Action="Maximize Tool Window">
@@ -905,14 +905,6 @@
           <Count>4</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Run 'OptimizerServerTest.testMain'">
-        <Item>
-          <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'Shift+F10'</ShortCut>
-          <Description>Run 'OptimizerServerTest.testMain'</Description>
-          <Count>24</Count>
-        </Item>
-      </Statistic>
       <Statistic Action="Run 'PluginUtilTest.testGetResString'">
         <Item>
           <IdeaActionID>Run</IdeaActionID>
@@ -1273,14 +1265,6 @@
           <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Stop 'OptimizerServerTest.testMain'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'Ctrl+F2'</ShortCut>
-          <Description>Stop 'OptimizerServerTest.testMain'</Description>
-          <Count>18</Count>
-        </Item>
-      </Statistic>
       <Statistic Action="Stop 'ProtobufHttpJavaImplTest.testSendPostData'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -1441,6 +1425,22 @@
           <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'LogTest'</Description>
           <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'OptimizerServerTest.testMain'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Run 'OptimizerServerTest.testMain'</Description>
+          <Count>28</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'OptimizerServerTest.testMain'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'OptimizerServerTest.testMain'</Description>
+          <Count>21</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
