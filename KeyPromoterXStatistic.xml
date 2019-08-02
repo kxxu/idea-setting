@@ -198,7 +198,7 @@
           <IdeaActionID>Debug</IdeaActionID>
           <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'OptimizerServerTest.testMain'</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'ProtobufHttpJavaImplTest.testSendPostData'">
@@ -406,7 +406,7 @@
           <IdeaActionID>ActivateMavenToolWindow</IdeaActionID>
           <ShortCut>'Alt+M'</ShortCut>
           <Description>Maven</Description>
-          <Count>9</Count>
+          <Count>10</Count>
         </Item>
       </Statistic>
       <Statistic Action="Maximize Tool Window">
@@ -431,6 +431,14 @@
           <ShortCut>'Ctrl+F6'</ShortCut>
           <Description>Modify Table...</Description>
           <Count>10</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Move...">
+        <Item>
+          <IdeaActionID>Move</IdeaActionID>
+          <ShortCut>'F6'</ShortCut>
+          <Description>Move...</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="New Folder...">
@@ -878,7 +886,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'LogTest'</Description>
-          <Count>35</Count>
+          <Count>46</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'NeteaseMusicMain'">
