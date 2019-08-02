@@ -22,7 +22,7 @@
           <IdeaActionID>Back</IdeaActionID>
           <ShortCut>'Ctrl+Alt+向左箭头'</ShortCut>
           <Description>Back</Description>
-          <Count>161</Count>
+          <Count>163</Count>
         </Item>
       </Statistic>
       <Statistic Action="Build Project">
@@ -185,6 +185,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Debug 'HelloWorld (1)'">
+        <Item>
+          <IdeaActionID>Debug</IdeaActionID>
+          <ShortCut>'Shift+F9'</ShortCut>
+          <Description>Debug 'HelloWorld (1)'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Debug 'OptimizerClient'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
@@ -238,7 +246,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>1564</Count>
+          <Count>1567</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -745,6 +753,14 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'AdxSystem (1)'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Run 'AdxSystem (1)'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'AdxSystem'">
         <Item>
           <IdeaActionID>Run</IdeaActionID>
@@ -1193,6 +1209,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'AdxSystem (1)'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'AdxSystem (1)'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'AdxSystem'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -1239,6 +1263,14 @@
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'HelloApplication'</Description>
           <Count>5</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'HelloWorld (1)'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'HelloWorld (1)'</Description>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'HelloWorldApplication'">
