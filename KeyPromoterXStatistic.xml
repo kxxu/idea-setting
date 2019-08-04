@@ -22,7 +22,7 @@
           <IdeaActionID>Back</IdeaActionID>
           <ShortCut>'Ctrl+Alt+向左箭头'</ShortCut>
           <Description>Back</Description>
-          <Count>165</Count>
+          <Count>167</Count>
         </Item>
       </Statistic>
       <Statistic Action="Build Project">
@@ -246,7 +246,7 @@
           <IdeaActionID>GotoDeclaration</IdeaActionID>
           <ShortCut>'Ctrl+B'</ShortCut>
           <Description>Declaration</Description>
-          <Count>1602</Count>
+          <Count>1608</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -1209,14 +1209,6 @@
           <Count>2</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Stop 'AdxSystem (1)'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'Ctrl+F2'</ShortCut>
-          <Description>Stop 'AdxSystem (1)'</Description>
-          <Count>3</Count>
-        </Item>
-      </Statistic>
       <Statistic Action="Stop 'AdxSystem'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -1473,6 +1465,14 @@
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'OptimizerServerTest.testMain'</Description>
           <Count>28</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'AdxSystem (1)'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'AdxSystem (1)'</Description>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'OptimizerServerTest.testMain'">
