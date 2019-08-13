@@ -1193,14 +1193,6 @@
           <Count>2</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Stop 'AdxSystem'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'Ctrl+F2'</ShortCut>
-          <Description>Stop 'AdxSystem'</Description>
-          <Count>114</Count>
-        </Item>
-      </Statistic>
       <Statistic Action="Stop 'DealnoticeApplication'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -1495,6 +1487,14 @@
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'AdxSystem (1)'</Description>
           <Count>5</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'AdxSystem'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'AdxSystem'</Description>
+          <Count>115</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'OptimizerServerTest.testMain'">
