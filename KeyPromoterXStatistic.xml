@@ -78,7 +78,7 @@
           <IdeaActionID>CheckinProject</IdeaActionID>
           <ShortCut>'Ctrl+K'</ShortCut>
           <Description>Commit...</Description>
-          <Count>59</Count>
+          <Count>60</Count>
         </Item>
       </Statistic>
       <Statistic Action="Compare With...">
@@ -247,14 +247,6 @@
           <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'go build test.go'</Description>
           <Count>2</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Declaration">
-        <Item>
-          <IdeaActionID>GotoDeclaration</IdeaActionID>
-          <ShortCut>'Ctrl+B'</ShortCut>
-          <Description>Declaration</Description>
-          <Count>1658</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -1457,6 +1449,14 @@
           <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'LogTest'</Description>
           <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Declaration">
+        <Item>
+          <IdeaActionID>GotoDeclaration</IdeaActionID>
+          <ShortCut>'Ctrl+B'</ShortCut>
+          <Description>Declaration</Description>
+          <Count>1660</Count>
         </Item>
       </Statistic>
       <Statistic Action="Resume Program">
