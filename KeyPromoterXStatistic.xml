@@ -745,14 +745,6 @@
           <Count>3</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Run 'AdxSystem'">
-        <Item>
-          <IdeaActionID>Run</IdeaActionID>
-          <ShortCut>'Shift+F10'</ShortCut>
-          <Description>Run 'AdxSystem'</Description>
-          <Count>46</Count>
-        </Item>
-      </Statistic>
       <Statistic Action="Run 'AnnotationScanTest.testConstruct'">
         <Item>
           <IdeaActionID>Run</IdeaActionID>
@@ -1206,7 +1198,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'AdxSystem'</Description>
-          <Count>113</Count>
+          <Count>114</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'DealnoticeApplication'">
@@ -1451,6 +1443,12 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Debug with JRebel 'AdxSystem'">
+        <Item>
+          <IdeaActionID>JRebel Debug</IdeaActionID>
+          <Description>Debug with JRebel 'AdxSystem'</Description>
+        </Item>
+      </Statistic>
       <Statistic Action="Declaration">
         <Item>
           <IdeaActionID>GotoDeclaration</IdeaActionID>
@@ -1473,6 +1471,14 @@
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'AdxSystem (1)'</Description>
           <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'AdxSystem'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Run 'AdxSystem'</Description>
+          <Count>47</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'OptimizerServerTest.testMain'">
