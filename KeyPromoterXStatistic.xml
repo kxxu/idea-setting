@@ -270,7 +270,7 @@
           <IdeaActionID>NewDir</IdeaActionID>
           <ShortCut>'Ctrl+\'</ShortCut>
           <Description>Directory</Description>
-          <Count>4</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Evaluate Expression...">
