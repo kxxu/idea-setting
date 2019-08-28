@@ -70,7 +70,7 @@
           <IdeaActionID>CloseAllEditorsButActive</IdeaActionID>
           <ShortCut>'Alt+F5'</ShortCut>
           <Description>Close Others</Description>
-          <Count>18</Count>
+          <Count>20</Count>
         </Item>
       </Statistic>
       <Statistic Action="Commit...">
@@ -166,7 +166,7 @@
           <IdeaActionID>Debug</IdeaActionID>
           <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'AdxSystem'</Description>
-          <Count>17</Count>
+          <Count>22</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'AnnotationScanTest.testConfig'">
@@ -182,6 +182,14 @@
           <IdeaActionID>Debug</IdeaActionID>
           <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'ClassLoaderUtilTest.testGetClassLoader'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Debug 'DownPlat00057_SDK'">
+        <Item>
+          <IdeaActionID>Debug</IdeaActionID>
+          <ShortCut>'Shift+F9'</ShortCut>
+          <Description>Debug 'DownPlat00057_SDK'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
