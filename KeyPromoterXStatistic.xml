@@ -22,7 +22,7 @@
           <IdeaActionID>Back</IdeaActionID>
           <ShortCut>'Ctrl+Alt+向左箭头'</ShortCut>
           <Description>Back</Description>
-          <Count>205</Count>
+          <Count>206</Count>
         </Item>
       </Statistic>
       <Statistic Action="Build Project">
@@ -742,7 +742,7 @@
           <IdeaActionID>HideAllWindows</IdeaActionID>
           <ShortCut>'Ctrl+Shift+F12'</ShortCut>
           <Description>Restore Windows</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Revert...">
@@ -903,6 +903,14 @@
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'LogTest'</Description>
           <Count>46</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'NacosModuleTest.testConfigure'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Run 'NacosModuleTest.testConfigure'</Description>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'NeteaseMusicMain'">
