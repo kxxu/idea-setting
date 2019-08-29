@@ -278,7 +278,7 @@
           <IdeaActionID>Debug</IdeaActionID>
           <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'SdkRequestHandlerTest.testHandler'</Description>
-          <Count>2</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'Services'">
@@ -326,7 +326,7 @@
           <IdeaActionID>EvaluateExpression</IdeaActionID>
           <ShortCut>'Alt+F8'</ShortCut>
           <Description>Evaluate Expression...</Description>
-          <Count>79</Count>
+          <Count>80</Count>
         </Item>
       </Statistic>
       <Statistic Action="Execute">
@@ -1041,6 +1041,14 @@
           <Count>30</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'SdkRequestHandlerTest.testHandler'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Run 'SdkRequestHandlerTest.testHandler'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'Services'">
         <Item>
           <IdeaActionID>Run</IdeaActionID>
@@ -1407,6 +1415,14 @@
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'Rerun Failed Tests'</Description>
           <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'SdkRequestHandlerTest.testHandler'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Ctrl+F2'</ShortCut>
+          <Description>Stop 'SdkRequestHandlerTest.testHandler'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'SentinelHelloClient'">
