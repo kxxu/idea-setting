@@ -22,7 +22,7 @@
           <IdeaActionID>Back</IdeaActionID>
           <ShortCut>'Ctrl+Alt+向左箭头'</ShortCut>
           <Description>Back</Description>
-          <Count>236</Count>
+          <Count>237</Count>
         </Item>
       </Statistic>
       <Statistic Action="Build Project">
@@ -166,7 +166,7 @@
           <IdeaActionID>Debug</IdeaActionID>
           <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'AdxSystem'</Description>
-          <Count>28</Count>
+          <Count>31</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'AnnotationScanTest.testConfig'">
@@ -342,7 +342,7 @@
           <IdeaActionID>EvaluateExpression</IdeaActionID>
           <ShortCut>'Alt+F8'</ShortCut>
           <Description>Evaluate Expression...</Description>
-          <Count>83</Count>
+          <Count>84</Count>
         </Item>
       </Statistic>
       <Statistic Action="Execute">
@@ -1319,6 +1319,14 @@
           <ShortCut>'F7'</ShortCut>
           <Description>Step Into</Description>
           <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Step Out">
+        <Item>
+          <IdeaActionID>StepOut</IdeaActionID>
+          <ShortCut>'Shift+F8'</ShortCut>
+          <Description>Step Out</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'CacheLoader'">
