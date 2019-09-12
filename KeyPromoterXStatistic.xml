@@ -46,7 +46,7 @@
           <IdeaActionID>Console.TableResult.CloneRow</IdeaActionID>
           <ShortCut>'Ctrl+D'</ShortCut>
           <Description>Clone Row</Description>
-          <Count>4</Count>
+          <Count>7</Count>
         </Item>
       </Statistic>
       <Statistic Action="Close">
@@ -199,6 +199,14 @@
           <ShortCut>'Shift+F9'</ShortCut>
           <Description>Debug 'CacheTool'</Description>
           <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Debug 'CacheToolTest.测试SdkAdunitInfo表'">
+        <Item>
+          <IdeaActionID>Debug</IdeaActionID>
+          <ShortCut>'Shift+F9'</ShortCut>
+          <Description>Debug 'CacheToolTest.测试SdkAdunitInfo表'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'CacheToolTest.测试SdkConfig表'">
@@ -862,6 +870,14 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'Shift+F10'</ShortCut>
           <Description>Run 'CacheTool'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'CacheToolTest.测试SdkAdunitInfo表'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Run 'CacheToolTest.测试SdkAdunitInfo表'</Description>
           <Count>2</Count>
         </Item>
       </Statistic>
@@ -1534,7 +1550,7 @@
           <IdeaActionID>Console.TableResult.Submit</IdeaActionID>
           <ShortCut>'Ctrl+Enter'</ShortCut>
           <Description>Submit</Description>
-          <Count>96</Count>
+          <Count>109</Count>
         </Item>
       </Statistic>
       <Statistic Action="Switch Task...">
