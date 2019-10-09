@@ -1113,6 +1113,14 @@
           <Count>30</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'PulsarConsumer'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'Shift+F10'</ShortCut>
+          <Description>Run 'PulsarConsumer'</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'SdkRequestHandlerTest.testHandler'">
         <Item>
           <IdeaActionID>Run</IdeaActionID>
@@ -1518,7 +1526,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Ctrl+F2'</ShortCut>
           <Description>Stop 'PulsarConsumer'</Description>
-          <Count>6</Count>
+          <Count>9</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'Rerun Failed Tests'">
