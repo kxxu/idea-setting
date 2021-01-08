@@ -1,6 +1,5 @@
 <application>
-  <component name="SetterTemplates">
-    <option name="defaultTempalteName" value="grpc-builder" />
+  <component name="SetterTemplates" defaultTemplateName="camelized">
     <option name="templates">
       <list>
         <TemplateResource>
